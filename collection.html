@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NOSTRA</title>
     <!--tailwind-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
     <!--style.css-->
@@ -14,7 +14,7 @@
 
 <body>
     <div class="navbar">
-        <h1>Nostra</h1>
+        <h1 class="text-2xl font-bold xl:text-4xl ">Nostra</h1>
         <div class="menu">
             <a href="index.html">Home</a>
             <a href="">New arival</a>
@@ -31,25 +31,90 @@
         <input class="p-2 mt-3 w-4/6 border border-black rounded xl:w-3/4" type="text" placeholder="Search">
     </search>
 
-    <div class="grid grid-cols-3">
-        <div>
-            <h1>Occation</h1>
-            <p><input type="checkbox">Summer</p>
-            <p><input type="checkbox">Party</p>
-            <p><input type="checkbox">Beach</p>
+    <div class="flex gap-5 xl:gap-20">
+        <div class="block">
+            <div class="">
+                <h1 class="font-bold text-2xl p-1 md:text-4xl">Occation</h1>
+                <p class="ml-4 text-xl md:text-2xl"><input type="checkbox">Summer</p>
+                <p class="ml-4 text-xl md:text-2xl"><input type="checkbox">Party</p>
+                <p class="ml-4 text-xl md:text-2xl"><input type="checkbox">Beach</p>
+            </div>
+            <div class="mt-5">
+                <h1 class="font-bold text-2xl p-1 md:text-4xl">Colours</h1>
+                <p class="ml-4 text-xl md:text-2xl"><input type="checkbox">Red</p>
+                <p class="ml-4 text-xl md:text-2xl"><input type="checkbox">Blue</p>
+                <p class="ml-4 text-xl md:text-2xl"><input type="checkbox">Green</p>
+                <p class="ml-4 text-xl md:text-2xl"><input type="checkbox">White</p>
+            </div>
+            <div class="mt-5">
+                <h1 class="font-bold text-2xl p-1 md:text-4xl">Arrivals</h1>
+                <p class="ml-4 text-xl md:text-2xl"><input type="checkbox">New</p>
+                <p class="ml-4 text-xl md:text-2xl"><input type="checkbox">Old</p>
+            </div>
         </div>
-        <div>
-            <h1>Colours</h1>
-            <p><input type="checkbox">Red</p>
-            <p><input type="checkbox">Blue</p>
-            <p><input type="checkbox">Green</p>
-            <p><input type="checkbox">White</p>
-        </div>
-        <div>
-            <h1>Arrivals</h1>
-            <p><input type="checkbox">New</p>
-            <p><input type="checkbox">Old</p>
-        </div>
+
+        <product class="ml-10 grid grid-cols-2 gap-3 p-5 md:grid-cols-3 xl:grid-cols-4 ">
+            <div>
+                <img src="./image/floralsummer.jpg">
+                <h2 class="font-bold text-lg md:text-2xl" >Floral Summer Shirt</h2>
+                <p class="font-bold text-sm md:text-2xl">₹550</p>
+            </div>
+            <div>
+                <img src="./image/shirt2.jpg" alt="">
+                <h2 class="font-bold text-lg md:text-2xl">Long Sleeve Shirt</h2>
+                <p class="font-bold text-sm md:text-2xl">₹800</p>
+            </div>
+            <div>
+                <img src="./image/s3.jpg">
+                <h2 class="font-bold text-lg md:text-2xl">Party Floral Shirt</h2>
+                <p class="font-bold text-sm md:text-2xl">₹920</p>
+            </div>
+            <div>
+                <img src="./image/s4.jpg" alt="">
+                <h2 class="font-bold text-lg md:text-2xl">Shirt Party Red</h2>
+                <p class="font-bold text-sm md:text-2xl">₹2020</p>
+            </div>
+            <div>
+                <img src="./image/s5.jpg" alt="">
+                <h2 class="font-bold text-lg md:text-2xl">Summer Green</h2>
+                <p class="font-bold text-sm md:text-2xl">₹786</p>
+            </div>
+            <div>
+                <img src="./image/s6.jpg" alt="">
+                <h2 class="font-bold text-lg md:text-2xl">Floral Summer Shirt</h2>
+                <p class="font-bold text-sm md:text-2xl">₹620</p>
+            </div>
+            <div>
+                <img src="./image/s7.jpg" alt="">
+                <h2 class="font-bold text-lg md:text-2xl">Beach Shirt</h2>
+                <p class="font-bold text-sm md:text-2xl">₹599</p>
+            </div>
+            <div>
+                <img src="./image/s8.png">
+                <h2 class="font-bold text-lg md:text-2xl">Tropical Hawaiian shirt </h2>
+                <p class="font-bold text-sm md:text-2xl">₹999</p>
+            </div>
+            <div>
+                <img src="./image/s9.png">
+                <h2 class="font-bold text-lg md:text-2xl">Tropical shirt</h2>
+                <p class="font-bold text-sm md:text-2xl">₹1029</p>
+            </div>
+            <div>
+                <img src="./image/s10.png">
+                <h2 class="font-bold text-lg md:text-2xl">Hawaiian shirt collection</h2>
+                <p class="font-bold text-sm md:text-2xl">₹4001</p>
+            </div>
+            <div>
+                <img src="./image/s11.png">
+                <h2 class="font-bold text-lg md:text-2xl">Tropical shirt collection</h2>
+                <p class="font-bold text-sm md:text-2xl">₹3111</p>
+            </div>
+            <div>
+                <img src="./image/s12.png">
+                <h2 class="font-bold text-lg md:text-2xl">Tropical Hawaiian shirts</h2>
+                <p class="font-bold text-sm md:text-2xl">₹2999</p>
+            </div>
+        </product>
 
     </div>
 
@@ -80,27 +145,28 @@
 
 
     <div class="newsletter">
-        <h1>Join Our News Letter</h1>
-        <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
-        <input type="text">
+        <h1 class="font-bold text-2xl md:text-4xl">Join Our News Letter</h1>
+        <p class="font-medium text-xl mt-2 md:text-2xl">Signup for our email newspaper to get exclusive discounts,
+            updates, and more</p>
+        <input type="text" class="mt-2">
         <br>
         <button>subscribe</button>
     </div>
 
     <!--footer-->
     <div class="footer">
-        <h1>Nostra</h1>
+        <h1 class="font-extrabold text-4xl">Nostra</h1>
         <br>
         <p class="desc">Discover the ultimate shopping experience with our e-commerce platform! Enjoy a wide range of
             products,
             unbeatable deals, and fast & free shipping on every order—delivered right to your door.
         </p>
         <br>
-        <div class="follow">
-            <img src="./image/pintrest.png" alt="">
-            <img src="./image/whatsapp.png" alt="">
-            <img src="./image/instagram.png" alt="">
-            <img src="./image/facebook.png" alt="">
+        <div class="follow ">
+            <img src="./image/pintrest.png" class="cursor-pointer" alt="">
+            <img src="./image/whatsapp.png" class="cursor-pointer">
+            <img src="./image/instagram.png" class="cursor-pointer">
+            <img src="./image/facebook.png" class="cursor-pointer">
         </div>
         <p class="copyright">© 2026 Nostra.com</p>
     </div>

@@ -444,6 +444,10 @@ body {
 
 
 
+
+
+
+
 /*index.html*/
 
 @media only screen and (max-width: 1000px) {
@@ -458,9 +462,10 @@ body {
     }
 
     /* NAVBAR */
+    /*
     .menu {
-        display: none;
-    }
+        display: ;
+    }*/
 
     .navbar {
         padding: 5px;
