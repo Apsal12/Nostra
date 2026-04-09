@@ -5,3 +5,6 @@ function removeElement() {
 }
 
 para.addEventListener("click", removeElement);
+
+
+
